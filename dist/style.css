@@ -69,6 +69,7 @@ header {
       margin-bottom: 8px; }
       header .menu ul li a {
         color: #e2e8f0;
+        font-weight: 600;
         text-transform: uppercase;
         transition: 0.1s ease-in-out; }
         header .menu ul li a:hover {
@@ -79,11 +80,12 @@ header {
     align-items: center; }
     header .contacts a {
       color: white;
+      margin: 0 16px 0 0;
       transition: 0.2s ease-in-out; }
+      header .contacts a:last-child {
+        margin: 0px; }
       header .contacts a:hover {
         color: #62ead5; }
-    header .contacts .fa-envelope {
-      margin-right: 8px; }
 
 .bio {
   margin: 0 0 40px 0; }
@@ -110,13 +112,11 @@ main {
       margin: 0 8px 0 8px;
       content: '•'; }
     .card .role-agency .agency span {
-      position: absolute;
-      margin: 2px 0 0 4px; }
-      .card .role-agency .agency span .gg-external {
-        --ggs: 0.6; }
+      /* position: absolute; */
+      margin: 0 0 0 4px; }
 
 @media screen and (min-width: 800px) {
-  body {
+  .container {
     display: flex;
     justify-content: space-between;
     margin: 80px auto 0; }
@@ -145,19 +145,17 @@ main {
   .pippo * {
     filter: blur(5px);
     transition: 0.1s ease-in-out; }
-  #circle {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    /* border: 2px solid red; */
-    /* background: radial-gradient(rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 25%); */
-    background-color: rgba(255, 255, 255, 0.05);
-    /* mix-blend-mode: difference; */
-    box-shadow: 0px 0px 32px 32px rgba(255, 255, 255, 0.05);
-    z-index: -1;
-    backdrop-filter: blur(50px); } }
+  /* #circle {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.05);
+        box-shadow: 0px 0px 32px 32px rgba(255, 255, 255, 0.05);
+        z-index: -1;
+        backdrop-filter: blur(50px);
+    } */ }
 
 @media screen and (min-width: 1000px) {
   header {
