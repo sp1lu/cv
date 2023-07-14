@@ -145,6 +145,10 @@ header {
 }
 
 // Main
+main {
+    margin: 0 0 40px 0;
+}
+
 .job-experiences {
     margin-bottom: 80px;
 }
@@ -204,7 +208,20 @@ header {
         width: 50%;
     }
 
+    .bio {
+        padding: 0 0 0 24px;
+    }
+
+    .job-experiences {
+        h3 {
+            padding: 0 0 0 24px;
+        }
+    }
+
     .card {
+        margin: 0;
+        padding: 24px;
+
         &:hover {
             cursor: pointer;
             background-color: rgba(255, 255, 255, 0.05);
@@ -218,7 +235,6 @@ header {
         filter: blur(5px);
         transition: 0.1s ease-in-out;
     }
-
     //
 
     // Mouse event
@@ -265,8 +281,6 @@ header {
 
     .card {
         display: flex;
-        padding: 24px;
-        transition: 0.1s ease-in-out;
 
         .years {
             width: 100%;
