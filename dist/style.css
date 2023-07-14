@@ -68,21 +68,22 @@ header {
       list-style: none;
       margin-bottom: 8px; }
       header .menu ul li a {
-        color: #e2e8f0;
+        color: rgba(226, 232, 240, 0.5);
         font-weight: 600;
         text-transform: uppercase;
         transition: 0.1s ease-in-out;
         display: flex;
         align-items: center; }
         header .menu ul li a .menu-lines {
-          background-color: #e2e8f0;
+          background-color: rgba(226, 232, 240, 0.5);
           width: 2rem;
           height: 1px;
           margin-right: 8px;
           transition: 0.1s ease-in-out; }
         header .menu ul li a .lol {
           width: 4rem;
-          transition: 0.1s ease-in-out; }
+          transition: 0.1s ease-in-out;
+          background-color: #e2e8f0; }
   header .contacts {
     display: flex;
     margin: 16px 0 0 0;
