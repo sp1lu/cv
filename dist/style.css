@@ -46,7 +46,7 @@ a {
   color: #62ead5;
   text-decoration: none;
   letter-spacing: -0.5px;
-  transition: 0.1s ease-in-out; }
+  /* transition: 0.2s ease-in-out; */ }
   a:hover {
     color: #56beaf; }
 
@@ -103,6 +103,10 @@ header {
 
 .card {
   margin: 0 0 24px 0; }
+  .card:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    transition: 0.1s ease-in-out; }
   .card .years {
     margin: 0 0 4px 0; }
   .card .role-agency {
@@ -117,11 +121,9 @@ header {
       .card .role-agency .agency span .gg-external {
         --ggs: 0.6; }
 
-.test {
-  background-color: red; }
-
-.pippo {
-  border: 1px solid blue; }
+.pippo * {
+  filter: blur(5px);
+  transition: 0.1s ease-in-out; }
 
 @media screen and (min-width: 800px) {
   body {
@@ -160,4 +162,14 @@ header {
 
 @media screen and (min-width: 1240px) {
   body {
-    max-width: 60%; } }
+    max-width: 60%; }
+  .bio {
+    padding: 0 0 0 24px; }
+  .job-experiences h3 {
+    padding: 0 0 0 24px; }
+  .card {
+    display: flex;
+    padding: 24px;
+    transition: 0.1s ease-in-out; }
+    .card .years {
+      width: 100%; } }

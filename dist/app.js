@@ -15,14 +15,24 @@ const allCards = Array.from(allCardsNode);
 allCards.forEach(item => {
 
   item.addEventListener('mouseover', () => {
-    item.classList.add('test');
+    const newArr = [...allCards];
 
-    allCards.splice()
+    newArr.splice(newArr.indexOf(item), 1);
+
+    newArr.forEach(subitem => {
+      subitem.classList.add('pippo');
+    })
 
   })
 
+});
+
+allCards.forEach(item => {
+  
   item.addEventListener('mouseout', () => {
-    item.classList.remove('test');
+    allCards.forEach(subitem => {
+      subitem.classList.remove('pippo');
+    })
   })
 
 });
