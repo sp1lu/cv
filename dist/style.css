@@ -1,7 +1,4 @@
 @charset "UTF-8";
-@import url("https://unpkg.com/css.gg/icons/css/external.css");
-@import url("https://unpkg.com/css.gg@2.0.0/icons/css/mail.css");
-@import url("https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css");
 * {
   margin: 0;
   box-sizing: border-box; }
@@ -85,10 +82,8 @@ header {
       transition: 0.2s ease-in-out; }
       header .contacts a:hover {
         color: #62ead5; }
-    header .contacts .gg-mail {
+    header .contacts .fa-envelope {
       margin-right: 8px; }
-    header .contacts .gg-instagram {
-      --ggs: .7; }
 
 .bio {
   margin: 0 0 40px 0; }
@@ -103,10 +98,6 @@ header {
 
 .card {
   margin: 0 0 24px 0; }
-  .card:hover {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 16px;
-    transition: 0.1s ease-in-out; }
   .card .years {
     margin: 0 0 4px 0; }
   .card .role-agency {
@@ -120,10 +111,6 @@ header {
       margin: 2px 0 0 4px; }
       .card .role-agency .agency span .gg-external {
         --ggs: 0.6; }
-
-.pippo * {
-  filter: blur(5px);
-  transition: 0.1s ease-in-out; }
 
 @media screen and (min-width: 800px) {
   body {
@@ -140,6 +127,14 @@ header {
     padding: 0 40px 0 0; }
   main {
     width: 50%; }
+  .card:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    transition: 0.1s ease-in-out; }
+  .pippo * {
+    filter: blur(5px);
+    transition: 0.1s ease-in-out; }
   #circle {
     position: absolute;
     transform: translate(-50%, -50%);

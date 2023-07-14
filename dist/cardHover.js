@@ -14,7 +14,13 @@ export const cardHoverEffect = function () {
                 subitem.classList.add('pippo');
             })
 
-        })
+        });
+
+        item.addEventListener('click', () => {
+            const agency = item.querySelector('.agency');
+            const link = agency.getAttribute('href');
+            window.open(`${link}`, '_blank');
+        });
 
     });
 

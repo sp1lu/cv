@@ -32,9 +32,9 @@ export const createJobsCards = function () {
 
         const externalLinkIconSpan = document.createElement('span');
 
-        const externalLinkIcon = document.createElement('i');
+        /* const externalLinkIcon = document.createElement('i');
         externalLinkIcon.classList.add('gg-external');
-        externalLinkIconSpan.append(externalLinkIcon);
+        externalLinkIconSpan.append(externalLinkIcon); */
 
         agency.append(externalLinkIconSpan);
 

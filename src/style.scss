@@ -1,7 +1,5 @@
 // Icons
-@import url("https://unpkg.com/css.gg/icons/css/external.css");
-@import url('https://unpkg.com/css.gg@2.0.0/icons/css/mail.css');
-@import url('https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css');
+
 
 // Variables
 $white-color: rgb(226, 232, 240);
@@ -126,12 +124,8 @@ header {
             }
         }
 
-        .gg-mail {
+        .fa-envelope {
             margin-right: 8px;
-        }
-
-        .gg-instagram {
-            --ggs: .7;
         }
 
     }
@@ -158,12 +152,6 @@ header {
 // Cards
 .card {
     margin: 0 0 24px 0;
-
-    &:hover {
-        background-color: rgba(255, 255, 255, 0.05);
-        border-radius: 16px;
-        transition: 0.1s ease-in-out;
-    }
 
     .years {
         margin: 0 0 4px 0;
@@ -194,13 +182,6 @@ header {
     }
 }
 
-// Test
-.pippo * {
-    filter: blur(5px);
-    transition: 0.1s ease-in-out;
-}
-//
-
 // Media queries
 @media screen and (min-width: 800px) {
     body {
@@ -222,6 +203,23 @@ header {
     main {
         width: 50%;
     }
+
+    .card {
+        &:hover {
+            cursor: pointer;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            transition: 0.1s ease-in-out;
+        }
+    }
+
+    // Test
+    .pippo * {
+        filter: blur(5px);
+        transition: 0.1s ease-in-out;
+    }
+
+    //
 
     // Mouse event
     #circle {

@@ -1,5 +1,5 @@
 import { createJobsCards } from "./createJobCards.js";
-import { cardHoverEffect } from "./test.js";
+import { cardHoverEffect } from "./cardHover.js";
 
 createJobsCards();
 cardHoverEffect();

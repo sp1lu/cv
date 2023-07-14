@@ -11,7 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "css.gg": "^2.1.1",
     "node-sass": "^9.0.0"
   },
   "type": "module"
