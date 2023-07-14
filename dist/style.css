@@ -79,7 +79,7 @@ header {
     margin: 16px 0 0 0;
     align-items: center; }
     header .contacts a {
-      color: white;
+      color: #e2e8f0;
       margin: 0 16px 0 0;
       transition: 0.2s ease-in-out; }
       header .contacts a:last-child {
@@ -148,6 +148,11 @@ main {
   .pippo * {
     filter: blur(5px);
     transition: 0.1s ease-in-out; }
+  .lol {
+    position: relative;
+    top: -4px;
+    left: 4px;
+    transition: 1s ease-in-out; }
   /* #circle {
         position: absolute;
         transform: translate(-50%, -50%);
