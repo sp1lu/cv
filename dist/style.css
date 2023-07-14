@@ -71,9 +71,18 @@ header {
         color: #e2e8f0;
         font-weight: 600;
         text-transform: uppercase;
-        transition: 0.1s ease-in-out; }
-        header .menu ul li a:hover {
-          color: #56beaf; }
+        transition: 0.1s ease-in-out;
+        display: flex;
+        align-items: center; }
+        header .menu ul li a .menu-lines {
+          background-color: #e2e8f0;
+          width: 2rem;
+          height: 1px;
+          margin-right: 8px;
+          transition: 0.1s ease-in-out; }
+        header .menu ul li a .lol {
+          width: 4rem;
+          transition: 0.1s ease-in-out; }
   header .contacts {
     display: flex;
     margin: 16px 0 0 0;

@@ -102,10 +102,21 @@ header {
                     font-weight: 600;
                     text-transform: uppercase;
                     transition: 0.1s ease-in-out;
+                    display: flex;
+                    align-items: center;
 
-                    &:hover {
-                        color: rgb(86, 190, 175);
+                    .menu-lines {
+                        background-color: $white-color;
+                        width: 2rem;
+                        height: 1px;
+                        margin-right: 8px;
+                        transition: 0.1s ease-in-out;
                     }
+
+                    .lol {
+                        width: 4rem;
+                        transition: 0.1s ease-in-out;
+                    }                    
                 }
             }
         }
