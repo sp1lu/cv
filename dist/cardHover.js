@@ -11,7 +11,7 @@ export const cardHoverEffect = function () {
             newArr.splice(newArr.indexOf(item), 1);
 
             newArr.forEach(subitem => {
-                subitem.classList.add('pippo');
+                subitem.classList.add('card-blur-effect');
             })
 
         });
@@ -29,7 +29,7 @@ export const cardHoverEffect = function () {
 
         item.addEventListener('mouseout', () => {
             allCards.forEach(subitem => {
-                subitem.classList.remove('pippo');
+                subitem.classList.remove('card-blur-effect');
             })
         })
 

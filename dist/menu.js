@@ -9,7 +9,7 @@ export const menuLinesAnimation = function () {
             link.style.color = 'rgba(226, 232, 240, 1)';
 
             const line = item.querySelector('.menu-lines');
-            line.classList.add('lol');
+            line.classList.add('color-changed');
         });
 
     });
@@ -21,7 +21,7 @@ export const menuLinesAnimation = function () {
             link.style.color = 'rgba(226, 232, 240, .5)';
 
             const line = item.querySelector('.menu-lines');
-            line.classList.remove('lol');
+            line.classList.remove('color-changed');
         });
 
     });
