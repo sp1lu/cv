@@ -1,4 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.menu a:hover {
+  color: white !important; }
+
+.menu a .menu-lines {
+  background-color: rgba(226, 232, 240, 0.5);
+  width: 2rem;
+  height: 1px;
+  margin-right: 8px;
+  transition: 0.1s ease-in-out; }
+
+.menu a .color-changed {
+  width: 4rem;
+  transition: 0.1s ease-in-out;
+  background-color: white; }
+
+.contacts .bi {
+  transition: .1s ease-in-out; }
+
 .card {
   transition: .1s ease-in-out; }
   .card:hover {
@@ -9313,3 +9331,7 @@ textarea.form-control-lg {
 
 .sticky-top {
   top: 40px; }
+
+.contacts .bi:hover {
+  color: white !important;
+  transition: .1s ease-in-out; }
