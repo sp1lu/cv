@@ -5,10 +5,10 @@ const jobExperiences = document.querySelector('.job-experiences');
 export const createJobsCards = function () {
     for (const item of jobs) {
         const card = document.createElement('div');
-        card.classList.add('card','border', 'border-0', 'bg-dark', 'text-light', 'mb-1', 'p-3');
+        card.classList.add('card','border', 'border-0', 'bg-dark', 'text-light', 'mb-1', 'p-4');
 
         const years = document.createElement('div');
-        years.classList.add('years');
+        years.classList.add('years', 'text-uppercase', 'fw-medium');
         years.textContent = item.years;
         card.append(years);
 
