@@ -36,3 +36,8 @@ $dark: rgb(15, 23, 42);
 
 // Import Boostrap CSS
 @import "node_modules/bootstrap/scss/bootstrap";
+
+// Override CSS classes
+.sticky-top {
+    top: 40px;
+}
