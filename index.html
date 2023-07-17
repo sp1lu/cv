@@ -8,6 +8,12 @@
 
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,73 +23,88 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <link rel="stylesheet" href="dist/style.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="container">
-        <div class="test">
-            <div id="circle"></div>
+<body class="bg-dark text-light">
+    <div class="container py-5">
+        <div class="row d-flex">
+
+            <div class="col-lg-6 mb-5">
+                <div class="sticky-top">
+                    <header class="px-3">
+                        <div>
+                            <h1>Davide Rivolta</h1>
+                            <h2>Full-stack web developer</h2>
+                            <p>I build accessible, inclusive products and digital experiences for the web.</p>
+                        </div>
+
+                        <div class="menu">
+                            <ul class="list-unstyled">
+                                <li class="menu-item"><a href="#bio" class="text-light text-uppercase fw-medium link-underline link-underline-opacity-0"><span class="menu-lines"></span>About</a></li>
+                                <li class="menu-item"><a href="#job-experiences" class="text-light text-uppercase fw-medium link-underline link-underline-opacity-0"><span
+                                            class="menu-lines"></span>Experiences</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="contacts d-flex align-items-center">
+                            <a href="mailto:daviderivolta12@gmail.com"><i class="bi bi-envelope text-light fs-4 me-2"></i></a>
+                            <a href="https://www.instagram.com/iamspilu/" target="_blank"><i class="bi bi-instagram text-light fs-5 me-2"></i></a>
+                            <a href="https://github.com/sp1lu" target="_blank"><i class="bi bi-github text-light fs-5"></i></a>
+                        </div>
+                    </header>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+
+                <main>
+                    <div class="bio mb-5 px-3" id="bio">
+                        <h3>About</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga harum eveniet sequi ducimus
+                            quaerat
+                            veritatis hic corrupti minima accusamus iste architecto sed, at laborum nemo, ut id
+                            recusandae
+                            corporis
+                            nesciunt.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga harum eveniet sequi ducimus
+                            quaerat
+                            veritatis hic corrupti minima accusamus iste architecto sed, at laborum nemo, ut id
+                            recusandae
+                            corporis
+                            nesciunt.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga harum eveniet sequi ducimus
+                            quaerat
+                            veritatis hic corrupti minima accusamus iste architecto sed, at laborum nemo, ut id
+                            recusandae
+                            corporis
+                            nesciunt.
+                        </p>
+                    </div>
+
+                    <div class="job-experiences" id="job-experiences">
+                        <h3 class="mb-3 ps-3">Experiences</h3>
+                    </div>
+
+                    <div class="grrretings px-3">
+                        <p>Do what you want 'cause a pirate is free. <a href="https://piratelol.ytmnd.com/"
+                                target="_blank">You are a pirate!</a></p>
+                    </div>
+                </main>
+            </div>
         </div>
-
-        <header>
-            <div>
-                <h1>Davide Rivolta</h1>
-                <h2>Full-stack web developer</h2>
-                <p>I build accessible, inclusive products and digital experiences for the web.</p>
-            </div>
-
-            <div class="menu">
-                <ul>
-                    <li class="menu-item"><a href="#bio"><span class="menu-lines"></span>About</a></li>
-                    <li class="menu-item"><a href="#job-experiences"><span class="menu-lines"></span>Experiences</a></li>
-                </ul>
-
-            </div>
-
-
-            <div class="contacts">
-                <a href="mailto:daviderivolta12@gmail.com"><i class="fa-regular fa-envelope fa-xl"></i></a>
-                <a href="https://www.instagram.com/iamspilu/" target="_blank"><i
-                        class="fa-brands fa-instagram fa-xl"></i></a>
-                <a href="https://github.com/sp1lu" target="_blank"><i class="fa-brands fa-github-alt fa-xl"></i></a>
-            </div>
-        </header>
-
-        <main>
-            <div class="bio" id="bio">
-                <h3>About</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga harum eveniet sequi ducimus quaerat
-                    veritatis hic corrupti minima accusamus iste architecto sed, at laborum nemo, ut id recusandae
-                    corporis
-                    nesciunt.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga harum eveniet sequi ducimus quaerat
-                    veritatis hic corrupti minima accusamus iste architecto sed, at laborum nemo, ut id recusandae
-                    corporis
-                    nesciunt.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga harum eveniet sequi ducimus quaerat
-                    veritatis hic corrupti minima accusamus iste architecto sed, at laborum nemo, ut id recusandae
-                    corporis
-                    nesciunt.
-                </p>
-            </div>
-
-            <div class="job-experiences" id="job-experiences">
-                <h3>Experiences</h3>
-            </div>
-
-            <div class="grrretings">
-                <p>Do what you want 'cause a pirate is free.<a href="https://piratelol.ytmnd.com/" target="_blank">You are a pirate!</a></p>
-            </div>
-        </main>
     </div>
 
-    <scrip type="module" src="dist/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="dist/app.js"></script>
 </body>
 
 </html>
