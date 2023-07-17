@@ -12,7 +12,10 @@ export const cardHoverEffect = function () {
 
             newArr.forEach(subitem => {
                 subitem.classList.add('card-blur-effect');
-            })
+            });
+
+            const arrowLink = item.querySelector('i');
+            arrowLink.classList.toggle('move-arrow');
 
         });
 
@@ -30,8 +33,11 @@ export const cardHoverEffect = function () {
         item.addEventListener('mouseout', () => {
             allCards.forEach(subitem => {
                 subitem.classList.remove('card-blur-effect');
-            })
-        })
+            });
+
+            const arrowLink = item.querySelector('i');
+            arrowLink.classList.remove('move-arrow');
+        });
 
     });
 }

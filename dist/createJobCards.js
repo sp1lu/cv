@@ -33,7 +33,7 @@ export const createJobsCards = function () {
         const externalLinkIconSpan = document.createElement('span');
 
         const externalLinkIcon = document.createElement('i');
-        externalLinkIcon.classList.add(/* 'bi', 'bi-arrow-up-right', 'fs-6', 'ms-1' */);
+        externalLinkIcon.classList.add('bi', 'bi-arrow-up-right', 'ms-1');
         externalLinkIconSpan.append(externalLinkIcon);
 
         agency.append(externalLinkIconSpan);

@@ -20,18 +20,47 @@ $light: rgb(148, 163, 184);
 $dark: rgb(15, 23, 42);
 
 // Custom CSS
+// Jobs cards
 .card {
+    transition: .1s ease-in-out;
+
     &:hover {
         cursor: pointer;
         background-color: rgba(255, 255, 255, 0.05) !important;
         border-radius: 16px;
-        transition: 0.1s ease-in-out;
+        transition: .4s ease-in-out;
     }
 }
 
 .card-blur-effect * {
     filter: blur(5px);
-    transition: 0.1s ease-in-out;
+    transition: .4s ease-in-out;
+}
+
+// Arrow link animation
+.bi-arrow-up-right {
+    font-size: 12px;
+}
+
+.move-arrow {
+    position: relative;
+    top: -4px;
+    left: 4px;
+    animation-name: move-arrow;
+    animation-duration: .1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move-arrow {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    100% {
+        top: -4px;
+        left: 4px;
+    }
 }
 
 // Import Boostrap CSS
