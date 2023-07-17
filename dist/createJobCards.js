@@ -8,7 +8,7 @@ export const createJobsCards = function () {
         card.classList.add('card','border', 'border-0', 'bg-dark', 'text-light', 'mb-1', 'p-4');
 
         const years = document.createElement('div');
-        years.classList.add('years', 'text-uppercase', 'fw-medium');
+        years.classList.add('years', 'text-uppercase', 'fw-medium', 'mb-2');
         years.textContent = item.years;
         card.append(years);
 
@@ -16,16 +16,16 @@ export const createJobsCards = function () {
         work.classList.add('job-experience');
 
         const roleAndAgency = document.createElement('div');
-        roleAndAgency.classList.add('role-agency', 'd-flex', 'align-middle');
+        roleAndAgency.classList.add('role-agency', 'd-flex', 'align-middle', 'mb-2');
         work.append(roleAndAgency);
 
         const role = document.createElement('h4');
-        role.classList.add('role');
+        role.classList.add('role', 'text-white', 'm-0');
         role.textContent = item.role;
         roleAndAgency.append(role);
 
         const agency = document.createElement('a');
-        agency.classList.add('agency', 'ms-3', 'pt-1', 'link-underline', 'link-underline-opacity-0');
+        agency.classList.add('agency', 'ms-2', 'link-underline', 'link-underline-opacity-0');
         agency.textContent = item.agency;
         agency.href = item.link;
         agency.setAttribute('target', '_blank');
@@ -33,7 +33,7 @@ export const createJobsCards = function () {
         const externalLinkIconSpan = document.createElement('span');
 
         const externalLinkIcon = document.createElement('i');
-        externalLinkIcon.classList.add('bi', 'bi-arrow-up-right', 'fs-6', 'ms-1');
+        externalLinkIcon.classList.add(/* 'bi', 'bi-arrow-up-right', 'fs-6', 'ms-1' */);
         externalLinkIconSpan.append(externalLinkIcon);
 
         agency.append(externalLinkIconSpan);
@@ -41,7 +41,7 @@ export const createJobsCards = function () {
         roleAndAgency.append(agency);
 
         const description = document.createElement('p');
-        description.classList.add('role-description');
+        description.classList.add('role-description', 'm-0');
         description.textContent = item.description;
         work.append(description);
 
