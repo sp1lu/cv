@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 // Custom font
-$font-family-sans-serif: "Inter", sans-serif;
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
 
 $font-size-base: 0.85rem;
 
-$h1-font-size: 2.5rem;
-$h2-font-size: 1.5rem;
-$h3-font-size: 1rem;
-$h4-font-size: 1rem;
-$h5-font-size: 1rem;
-$h6-font-size: 1rem;
+$h1-font-size: $font-size-base * 2;
+$h2-font-size: $font-size-base * 1.75;
+$h3-font-size: $font-size-base * 1.25;
+$h4-font-size: $font-size-base * 1.1;
+$h5-font-size: $font-size-base * 1;
+$h6-font-size: $font-size-base;
 
 // Custom colors
 $primary: rgb(98, 234, 213);

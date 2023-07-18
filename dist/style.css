@@ -120,7 +120,7 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: "Inter", sans-serif;
+  --bs-font-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -261,28 +261,28 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: var(--bs-heading-color); }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw); }
+  font-size: calc(1.295rem + 0.54vw); }
   @media (min-width: 1200px) {
     h1, .h1 {
-      font-size: 2.5rem; } }
+      font-size: 1.7rem; } }
 
 h2, .h2 {
-  font-size: calc(1.275rem + 0.3vw); }
+  font-size: calc(1.27375rem + 0.285vw); }
   @media (min-width: 1200px) {
     h2, .h2 {
-      font-size: 1.5rem; } }
+      font-size: 1.4875rem; } }
 
 h3, .h3 {
-  font-size: 1rem; }
+  font-size: 1.0625rem; }
 
 h4, .h4 {
-  font-size: 1rem; }
+  font-size: 0.935rem; }
 
 h5, .h5 {
-  font-size: 1rem; }
+  font-size: 0.85rem; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 0.85rem; }
 
 p {
   margin-top: 0;
@@ -6791,22 +6791,22 @@ textarea.form-control-lg {
   font-family: var(--bs-font-monospace) !important; }
 
 .fs-1 {
-  font-size: calc(1.375rem + 1.5vw) !important; }
+  font-size: calc(1.295rem + 0.54vw) !important; }
 
 .fs-2 {
-  font-size: calc(1.275rem + 0.3vw) !important; }
+  font-size: calc(1.27375rem + 0.285vw) !important; }
 
 .fs-3 {
-  font-size: 1rem !important; }
+  font-size: 1.0625rem !important; }
 
 .fs-4 {
-  font-size: 1rem !important; }
+  font-size: 0.935rem !important; }
 
 .fs-5 {
-  font-size: 1rem !important; }
+  font-size: 0.85rem !important; }
 
 .fs-6 {
-  font-size: 1rem !important; }
+  font-size: 0.85rem !important; }
 
 .fst-italic {
   font-style: italic !important; }
@@ -9301,9 +9301,9 @@ textarea.form-control-lg {
 
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 2.5rem !important; }
+    font-size: 1.7rem !important; }
   .fs-2 {
-    font-size: 1.5rem !important; } }
+    font-size: 1.4875rem !important; } }
 
 @media print {
   .d-print-inline {
