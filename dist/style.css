@@ -18,17 +18,17 @@
   transition: .1s ease-in-out; }
 
 .card {
-  transition: .1s ease-in-out; }
+  transition: .1s; }
   .card:hover {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.05) !important;
     border-radius: 16px;
-    transition: .4s ease-in-out;
+    transition: .1s ease-in-out;
     border-top: 1px solid rgba(255, 255, 255, 0.25) !important; }
 
 .card-blur-effect * {
   filter: blur(5px);
-  transition: .4s ease-in-out; }
+  transition: .1s ease-in-out; }
 
 .bi-arrow-up-right {
   font-size: 12px; }

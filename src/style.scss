@@ -50,20 +50,20 @@ $dark: rgb(15, 23, 42);
 
 // Jobs cards
 .card {
-    transition: .1s ease-in-out;
+    transition: .1s;
 
     &:hover {
         cursor: pointer;
         background-color: rgba(255, 255, 255, 0.05) !important;
         border-radius: 16px;
-        transition: .4s ease-in-out;
+        transition: .1s ease-in-out;
         border-top: 1px solid rgba(255, 255, 255, 0.25) !important;
     }
 }
 
 .card-blur-effect * {
     filter: blur(5px);
-    transition: .4s ease-in-out;
+    transition: .1s ease-in-out;
 }
 
 // Arrow link animation
